@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Red+Hat+Mono:wght@500&display=swap"
+    rel="stylesheet">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym2.jpeg');
+        /* background-repeat: no-repeat;
+        background-size: cover; */
+        /* background-position: center center; */
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Red Hat Mono', monospace;
+    }
+
+    .left {
+
+        display: inline-block;
+        /* margin: 12px; */
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 30px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 70px;
+        padding-left: 56px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        /* border: 2px solid red; */
+    }
+
+    .right {
+
+        display: inline-block;
+        /* margin: 12px; */
+        /* border: 2px solid red; */
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 10px;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: blue;
+        border-radius: 2px;
+    }
+
+    .btn {
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        padding: 4px 15px;
+        border: 2px solid green;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Red Hat Mono', monospace;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(153, 162, 53);
+    }
+
+    .container {
+        border: 2px solid rgb(24 218 201);
+        margin: 90px 508px;
+        width: 33%;
+        padding: 38px 54px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    form {
+        padding: 10px 195px;
+    }
+
+    .form-grp {
+        border: 2px solid chartreuse;
+        width: 148px;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .form-grp input {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box is for logo -->
+        <div class="left">
+            <img src="img/logo.webp" alt="">
+            <div>This is Harish Gym</div>
+        </div>
+
+        <!-- mid box is for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box is for extra button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym ever</h1>
+        <form action="abc.php">
+            <div class="form-grp">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-grp">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-grp">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-grp">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div>
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
